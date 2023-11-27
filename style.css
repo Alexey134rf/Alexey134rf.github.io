@@ -17,6 +17,8 @@ body {
 
 #Log_in {
     display: none;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 #color-input1 {
