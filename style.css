@@ -118,19 +118,22 @@ body {
 
 .container {
     display: flex;
-    align-content: right;
+    /* align-content: space-between; */
+    justify-content: left;
     flex-wrap: wrap;
+
     width: 100%;
 
     background-color: rgb(235, 255, 233);
 }
 
 .camera_block {
-    width: 410px;
+    width: 423px;
     height: 305px;
     margin: 15px 15px 15px;
     padding-left: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
+
 
     background-color: rgb(255, 228, 152);
 }
@@ -142,7 +145,7 @@ body {
 }
 
 .camera_block img {
-    width: 400px;
+    width: 413px;
     height: 240px;
     opacity: 1;
 }
