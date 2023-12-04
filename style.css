@@ -156,3 +156,7 @@ body {
 .camera_block img:hover {
     opacity: 0.7;
 }
+video {
+    object-fit: contain;
+    overflow: clip;
+}

@@ -8,6 +8,7 @@
     <link rel="ICON" href="image/br_logo.png">
     <!--  -->
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
@@ -170,9 +171,13 @@
             }
         }
     </script>
-    <!-- <iframe src="http://camera.volganet.ru/">
+    
+ <iframe sandbox="allow-forms allow-modals" src="http://camera.volganet.ru/api/v1/cameras/821/mp4/live"  width="300px" height="300px">
+    </iframe> 
 
-    </iframe> -->
+
+
+    <video controls="" autoplay="" name="media"><source src="http://camera.volganet.ru/api/v1/cameras/1238/mp4/live" type="video/mp4"></video>
 </body>
 
 </html>
